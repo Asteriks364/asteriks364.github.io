@@ -1,0 +1,237 @@
+@media screen and (max-width: 1023px) {
+	.top-menu {
+		display: none;
+	}
+
+	.menu-button a {
+		display: block;
+	}	
+
+	.swiper-container {
+		max-height: 475px;
+	}	
+
+	.swiper-slide .slide-head {
+		left: 0; 
+		max-width: 100%;
+		margin-right: 30px;
+	}
+
+	.swiper-slide .slide-content {
+		left: 30px;
+		max-width: 100%;
+		margin: 0 30px;
+	}
+
+	.link-about {
+		text-align: center;
+	}
+
+	.wrap-about, .flex-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.wrap-img, .about .post-about {
+		margin: 0 0 10px 0; 
+	}
+
+	.news {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+
+	.post-news {
+		margin-bottom: 30px;
+	}
+
+	.right-column .post-news {
+		height: auto;
+	}
+
+	.right-column .img {
+		height: 160px;
+	}
+
+	.wrap-footer {
+		min-height: 30px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.footer-menu li {
+		display: inline-block;
+	}
+
+	.footer .info {
+		display: inline-block;
+	}
+
+	.wrap-footer, .footer .info {
+		text-align: center;
+	}
+	
+	.footer-menu {
+		margin: 16px;
+		float: none;
+		justify-content: center;
+	}
+
+	.footer .info {
+		margin-bottom: 25px;
+	}
+
+
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 25px;
+	}
+
+	h1 span:after {
+		top: -20px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	.contacts .search-icon {
+		display: block;
+	}
+
+	.contacts input {
+		display: none;
+	}
+
+	.contacts .button-call-icon, .contacts .mail-icon {
+		display: block;
+	}
+
+	.contacts .button-call, .contacts .mail {
+		display: none;
+	}
+
+	.swiper-container {
+		max-height: 300px;
+	}	
+
+	.swiper-slide .slide-head {
+		font-size: 25px;
+	}
+
+	.swiper-slide .slide-content {
+		left: 0; 
+		font-size: 14px;
+	}
+
+	.about {
+		padding: 25px 0;
+	}
+
+	.new-content-text {
+		clear:both;
+	}
+
+	.button-news {
+		margin-top: 10px;
+	}
+
+	.wrap-footer {
+		margin-bottom: 0;
+	}
+	
+	.right-column .img {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.footer-menu {
+		flex-direction: column;
+	}
+
+	.footer .info {
+		margin: 13px;
+	}
+
+	.contacts form { 
+		position: absolute;
+		top: 30px;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	h1 span:after {
+		top: -15px;
+	}
+
+	.logo {
+		padding-top: 12px; 
+	}
+
+	.logo  img {
+		height: 32px;
+	}
+
+	.swiper-slide .slide-head {
+		display: block;
+		position: relative;
+		top: 30px;
+		left: 0;
+		margin: 0 auto;
+		padding: 5px 15px;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.swiper-slide .slide-content {
+		position: relative;
+		top: 30px;
+		left: 0;
+		margin: 0 auto;
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	.link-catalog {
+		text-align: center;
+	}
+
+	.button-news {
+		display: none;
+	}
+
+	.news {
+		padding-top: 35px;
+		padding-bottom: 10px;
+	}
+
+	.footer-menu, .footer .info {
+		margin: 12px;
+	}
+
+	.footer .info {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.date-new span {
+		font-size: 22px;
+	}
+
+	.date-new p {
+		margin: 0;
+		font-size: 12px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+}
